@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Request Received | MHR Auto Group</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .confirmation-page{min-height:100vh;display:grid;place-items:center;padding:32px;background:radial-gradient(circle at top,#202733 0,#0d1118 48%,#07090d 100%)}
+    .confirmation-card{width:min(680px,100%);background:#fff;padding:54px;border-radius:18px;box-shadow:0 28px 80px rgba(0,0,0,.4);text-align:center}
+    .confirmation-mark{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;margin:0 auto 24px;background:#111821;color:#efd394;font-size:34px;font-weight:800}
+    .confirmation-card h1{margin:0 0 14px;font-family:"Playfair Display",serif;font-size:clamp(2.2rem,6vw,4rem);color:#111821}
+    .confirmation-card p{color:#56606e;font-size:1.06rem;line-height:1.75;margin:0 auto 16px;max-width:560px}
+    .confirmation-card .button{display:inline-flex;margin-top:18px;text-decoration:none}
+    .confirmation-note{margin-top:26px!important;font-size:.88rem!important;color:#7d8590!important}
+    @media(max-width:600px){.confirmation-card{padding:38px 24px}}
+  </style>
+</head>
+<body>
+  <main class="confirmation-page">
+    <section class="confirmation-card">
+      <div class="confirmation-mark">✓</div>
+      <p class="eyebrow">REQUEST RECEIVED</p>
+      <h1>Thank you.</h1>
+      <p>Your vehicle inquiry has been submitted successfully. MHR Auto Group will review your request and contact you regarding availability and next steps.</p>
+      <a class="button button-primary" href="/">Return to MHR Auto Group</a>
+      <p class="confirmation-note">Submitting an inquiry does not reserve a vehicle or guarantee approval, pricing, or availability.</p>
+    </section>
+  </main>
+</body>
+</html>
