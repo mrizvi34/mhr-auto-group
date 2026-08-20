@@ -1,0 +1,101 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Website"
+    files:
+      - name: "content"
+        label: "MHR Auto Group Website"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - {label: "Business Name", name: "business_name", widget: "string"}
+          - {label: "Deals Nav Label", name: "navigation_deals_label", widget: "string"}
+          - label: "Homepage Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+              - {label: "Headline", name: "headline", widget: "string"}
+              - {label: "Gold Headline", name: "headline_accent", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Button Text", name: "cta_text", widget: "string"}
+          - label: "Pricing"
+            name: "pricing"
+            widget: "object"
+            fields:
+              - {label: "Service Fee", name: "fee", widget: "number", value_type: "int"}
+              - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+              - {label: "Headline", name: "headline", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Fee Label", name: "fee_label", widget: "string"}
+              - {label: "Fee Note", name: "fee_note", widget: "string"}
+              - {label: "Small Note", name: "small_note", widget: "string"}
+          - label: "Monthly Deal Settings"
+            name: "deal_period"
+            widget: "object"
+            fields:
+              - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+              - {label: "Headline", name: "headline", widget: "string"}
+              - {label: "Intro", name: "intro", widget: "text"}
+              - {label: "Valid Through", name: "valid_through", widget: "datetime", format: "YYYY-MM-DD", date_format: "MM/DD/YYYY", time_format: false}
+              - {label: "Offer Disclosure", name: "disclaimer", widget: "text"}
+          - label: "Deals"
+            name: "deals"
+            widget: "list"
+            summary: "{{fields.vehicle}} — ${{fields.monthly_payment}}/mo"
+            fields:
+              - {label: "Active", name: "active", widget: "boolean", default: true}
+              - {label: "Featured", name: "featured", widget: "boolean", default: false}
+              - {label: "Category", name: "category", widget: "select", options: ["SEDAN", "SUV", "TRUCK", "HYBRID", "EV", "OTHER"]}
+              - {label: "Vehicle", name: "vehicle", widget: "string"}
+              - {label: "Monthly Payment", name: "monthly_payment", widget: "number", value_type: "int"}
+              - {label: "Term (months)", name: "term_months", widget: "number", value_type: "int"}
+              - {label: "Miles Per Year", name: "miles_per_year", widget: "number", value_type: "int"}
+              - {label: "Due At Signing", name: "due_at_signing", widget: "number", value_type: "int"}
+              - {label: "MSRP", name: "msrp", widget: "number", value_type: "int"}
+              - {label: "Discount Off MSRP", name: "discount", widget: "number", value_type: "int"}
+              - {label: "Deal Note", name: "note", widget: "text"}
+              - {label: "Button Label", name: "button_label", widget: "string", default: "Claim Deal"}
+          - label: "Client Results"
+            name: "case_study"
+            widget: "object"
+            fields:
+              - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+              - {label: "Headline", name: "headline", widget: "string"}
+              - {label: "Vehicle", name: "vehicle", widget: "string"}
+              - {label: "Dealer Monthly", name: "dealer_monthly", widget: "number", value_type: "int"}
+              - {label: "Dealer Due At Signing", name: "dealer_due", widget: "number", value_type: "int"}
+              - {label: "MHR Monthly", name: "mhr_monthly", widget: "number", value_type: "int"}
+              - {label: "MHR Due At Signing", name: "mhr_due", widget: "number", value_type: "int"}
+              - {label: "Term Months", name: "term_months", widget: "number", value_type: "int"}
+              - {label: "Footnote", name: "footnote", widget: "text"}
+          - label: "Testimonials / Trust Statements"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Quote", name: "quote", widget: "text"}
+              - {label: "Attribution", name: "attribution", widget: "string"}
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Answer", name: "answer", widget: "text"}
+          - label: "Contact Section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+              - {label: "Headline", name: "headline", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Service Area", name: "service_area", widget: "string"}
+              - {label: "Services Line", name: "services_line", widget: "string"}
+          - {label: "Footer Legal Text", name: "footer_legal", widget: "text"}

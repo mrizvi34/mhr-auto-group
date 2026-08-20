@@ -1,0 +1,124 @@
+{
+  "business_name": "MHR Auto Group",
+  "navigation_deals_label": "Current Deals",
+  "hero": {
+    "eyebrow": "YOUR PERSONAL CAR NEGOTIATOR",
+    "headline": "Never overpay",
+    "headline_accent": "for your next car.",
+    "description": "MHR Auto Group sources and negotiates purchase and lease deals on your behalf—so you can avoid dealership pressure, understand the numbers, and sign with confidence.",
+    "cta_text": "Get Started for $250"
+  },
+  "pricing": {
+    "fee": 250,
+    "eyebrow": "ONE FEE. NO SURPRISES.",
+    "headline": "Flat-rate auto brokerage.",
+    "description": "Our fee stays the same whether your car costs $25,000 or $100,000.",
+    "fee_label": "FLAT BROKER FEE",
+    "fee_note": "per completed vehicle transaction",
+    "small_note": "No percentage-based pricing."
+  },
+  "deal_period": {
+    "eyebrow": "LIMITED-TIME TOYOTA OFFERS",
+    "headline": "July 2026 featured lease deals.",
+    "intro": "Transparent monthly payments with taxes and fees included.",
+    "valid_through": "2026-07-31",
+    "disclaimer": "Advertised payments are based on the stated lease term and mileage allowance. Offers are subject to vehicle availability, approved credit, manufacturer incentive eligibility, and final dealer documentation. Excess mileage, excess wear, disposition fees, insurance, and optional products are not included unless expressly stated. MHR Auto Group is an independent vehicle acquisition concierge and is not the selling dealership, lender, or lessor."
+  },
+  "deals": [
+    {
+      "active": true,
+      "featured": false,
+      "category": "SEDAN",
+      "vehicle": "2026 Toyota Corolla LE",
+      "monthly_payment": 295,
+      "term_months": 36,
+      "miles_per_year": 10000,
+      "due_at_signing": 513,
+      "msrp": 25193,
+      "discount": 3500,
+      "button_label": "Claim Corolla Deal",
+      "note": "First monthly payment plus registration. All applicable taxes and fees are included in the advertised payment."
+    },
+    {
+      "active": true,
+      "featured": true,
+      "category": "TRUCK",
+      "vehicle": "2026 Toyota Tacoma SR5 4x2 Double Cab",
+      "monthly_payment": 373,
+      "term_months": 36,
+      "miles_per_year": 10000,
+      "due_at_signing": 591,
+      "msrp": 44027,
+      "discount": 5500,
+      "button_label": "Claim Tacoma Deal",
+      "note": "First monthly payment plus registration. All applicable taxes and fees are included in the advertised payment."
+    },
+    {
+      "active": true,
+      "featured": false,
+      "category": "TRUCK",
+      "vehicle": "2026 Toyota Tundra Limited 4x4 CrewMax",
+      "monthly_payment": 651,
+      "term_months": 36,
+      "miles_per_year": 10000,
+      "due_at_signing": 869,
+      "msrp": 66917,
+      "discount": 11000,
+      "button_label": "Claim Tundra Deal",
+      "note": "First monthly payment plus registration. All applicable taxes and fees are included in the advertised payment."
+    }
+  ],
+  "case_study": {
+    "eyebrow": "PROVEN NEGOTIATION VALUE",
+    "headline": "A real client lease result.",
+    "vehicle": "Brand-New Toyota Camry Lease",
+    "dealer_monthly": 589,
+    "dealer_due": 589,
+    "mhr_monthly": 399,
+    "mhr_due": 399,
+    "term_months": 36,
+    "footnote": "Estimated using a 36-payment lease and assuming the quoted due-at-signing amount represents the first monthly payment. Actual savings depend on final term, mileage, taxes, fees, incentives, credit tier, and vehicle availability."
+  },
+  "testimonials": [
+    {
+      "label": "EXPERIENCE",
+      "quote": "Built from years of helping family and friends understand lease structures, compare dealership offers, and negotiate stronger vehicle deals.",
+      "attribution": "MHR Auto Group"
+    },
+    {
+      "label": "THE MHR PROMISE",
+      "quote": "Clear numbers, honest guidance, and a flat fee that does not increase just because your vehicle costs more.",
+      "attribution": "Client-first pricing"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you sell the vehicle directly?",
+      "answer": "No. MHR Auto Group acts as your independent buying and leasing concierge. The final purchase or lease is completed directly with the licensed selling dealer."
+    },
+    {
+      "question": "When is the $250 fee due?",
+      "answer": "The fee structure can be finalized in your client agreement. A practical launch model is a small non-refundable engagement deposit, with the balance due once an agreed deal is secured."
+    },
+    {
+      "question": "Can you guarantee the lowest price?",
+      "answer": "No ethical broker should guarantee a specific lowest price. We provide market-informed sourcing, negotiation, and transparent comparison to help you make a stronger decision."
+    },
+    {
+      "question": "Do you help with trade-ins or financing?",
+      "answer": "We can help you compare dealer trade-in figures and evaluate financing terms, while the dealer or lender handles the actual appraisal and credit transaction."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "The initial focus is Dallas–Fort Worth and surrounding Texas markets, with remote deal-review support available more broadly where permitted."
+    }
+  ],
+  "contact": {
+    "eyebrow": "READY TO SKIP THE DEALERSHIP HEADACHE?",
+    "headline": "Let’s find your next car.",
+    "description": "Complete the form and MHR Auto Group will follow up to discuss your vehicle, budget, and timeline.",
+    "service_area": "Serving Dallas–Fort Worth",
+    "services_line": "Purchase • Lease • Deal Review"
+  },
+  "footer_legal": "MHR Auto Group is not a vehicle manufacturer, lender, insurer, or selling dealership. Services and availability are subject to applicable licensing, advertising, and regulatory requirements. Deal examples do not guarantee future results. Featured offers are subject to expiration, availability, approved credit, incentive eligibility, and final dealer documentation."
+}
